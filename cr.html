@@ -1,0 +1,54 @@
+<html>
+<head>
+      <title>classic ranked</title>
+      <link rel="stylesheet" type="text/css" href="cr.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</head>
+<div class="one">
+      <marquee><h1>FREE FIRE OFFICIAL</h1></marquee>
+    </div><br>
+    <div class="tab">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="cr.html">Classic Ranked</a></li>
+        <li><a href="cs.html">Clash Squad</a></li>
+        <li><a href="heroic.html">Heroic</a></li>
+        <li><a href="squad.html">Squad</a></li>
+        <li><a href="rm.html">Room match</a></li>
+        <li><a href="index.html">Back</a></li>
+      </ul>
+    </div><br>
+<!--       Swiper    -->
+<div class="container">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="season 20.1.jpg"></div>
+      <div class="swiper-slide"><img src="star.jpg"></div>
+      <div class="swiper-slide"><img src="star1.jpg"></div>
+    </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+  </div>
+</div>
+<script>
+  const swiper = new Swiper('.swiper', {
+    autoplay:{
+      delay:1500,
+      disableOnInteraction:false,
+    },
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+h1{
+	color: gold;
+	text-align: center;
+	font-weight: bold;
+}
+.one{
+  background-image: linear-gradient(
+    to bottom right,
+      maroon,
+      #fa7e1e,
+      #fa7e1e,
+      maroon
+  );	
+  border-radius: 1.5em;
+	box-shadow: 5px 15px 25px #000;
+}
+body{
+	background-image: url("ff1.jpg");
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+button{
+  cursor: pointer;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: timesnewroman;
+  width: 500px;
+	padding: 50px;
+	border-width: 15px solid black;
+  border-radius: 50px;
+  background-image: linear-gradient(
+   to bottom right,
+      maroon,
+      #fa7e1e,
+      #fa7e1e,
+      maroon
+  );
+}
+button:hover{
+  border: 5px solid gold;
+}
+@media only screen and (max-width: 1000px){
+  .one{
+    font-size: 30px;
+  }
+  button{
+    width: 800px;
+    font-size: 60px;
+    margin-left: 80px;
+    margin-top: 50px;
+  }
+}
