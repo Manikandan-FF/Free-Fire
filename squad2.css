@@ -1,0 +1,101 @@
+h1{
+	color: gold;
+	text-align: center;
+	font-weight: bold;
+}
+h2{
+	background: linear-gradient(
+    to bottom right,
+      violet,blue,red,green,yellow
+  );
+	padding: 15px;
+	text-align: center;
+	color: white;
+}
+h3{
+	background-color: #333;
+	font-size: 30px;
+}
+.one{
+	background-image: linear-gradient(
+    to bottom right,
+      maroon,
+      #fa7e1e,
+      #fa7e1e,
+      maroon
+  );
+	border-radius: 1.5em;
+	box-shadow: 5px 15px 25px #000;
+}
+.red{
+	color: red;
+}
+.green{
+	color: green;
+}
+body{
+	background-image: url("ff1.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+img{
+	width: 1200px;
+	height: 100%;
+}
+figure{
+	width: 1200px;
+	border:2px solid white;
+	padding: 5px;
+	border-radius: 15px;
+	align-items: center;
+	background-color: black;
+}
+figcaption{
+	text-align: center;
+    font-family:cursive; 
+ 	color: yellow;
+}
+.tab{
+	max-width: 800%;
+	padding:0 1.2em;
+	border-radius: 1.5rem;
+	background-color: #333;
+	line-height: 2em;
+	font-weight: bold;
+	transition: all 0.5s linear;
+	box-shadow: 5px 15px 25px #000;
+}
+ul{
+	display: flex;
+	list-style: none;
+}
+a{
+	color: white;
+	text-decoration:none;
+	padding-right: 25px;
+	transition: color 256ms;
+}
+a:hover{
+	color: #297;
+}
+@media only screen and (max-width: 1000px){
+	.one{
+		font-size: 40px;
+		width: 1260px;
+	}
+	.tab{
+		font-size: 51px;
+		width: 1200px;
+	}
+	a{
+		margin-left: 30px;
+	}
+	img{
+		width: 1200px;
+		height: 600px;
+	}
+	figcaption{
+		font-size: 30px;
+	}
+}
